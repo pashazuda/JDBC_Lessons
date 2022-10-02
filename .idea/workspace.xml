@@ -4,14 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2bf078d-7dda-4aee-9f15-a8e133d67292" name="Changes" comment="" />
+    <list default="true" id="a2bf078d-7dda-4aee-9f15-a8e133d67292" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/dao/FlightDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/BlobRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/BlobRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/DAORunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/DAORunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/JdbcInjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/JdbcInjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/JdbcPreparedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/JdbcPreparedStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/JdbcRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/JdbcRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/TransactionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/TransactionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/dao/TicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/dto/TicketFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/dto/TicketFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/entity/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/entity/TicketEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/entity/TicketEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/exception/DAOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/exception/DAOException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/utill/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/utill/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/utill/ConnectionManagerPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/utill/ConnectionManagerPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/utill/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/starter/utill/PropertiesUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2FTY6QY8Y9UBie415wyjAMpu8vs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,9 +64,107 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping>\n  <databases>\n    <list>\n      <schema-mapping-item>\n        <source-data-source-id>393adf59-e361-42a7-a6ed-e2cdfb1a50ac</source-data-source-id>\n        <source-path>database/&quot;fliht_repository&quot;/schema/&quot;public&quot;</source-path>\n        <target-data-source-id>393adf59-e361-42a7-a6ed-e2cdfb1a50ac</target-data-source-id>\n        <target-path>database/&quot;fliht_repository&quot;/schema/&quot;public&quot;</target-path>\n      </schema-mapping-item>\n    </list>\n  </databases>\n</schema-mapping>",
+    "last_opened_file_path": "D:/Kata/ПП/JDBC_Lessons/JDBC_Project/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jdbc.starter.entity" />
+      <recent name="com.jdbc.starter.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kata\ПП\JDBC_Lessons\JDBC_Project\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DAORunner">
+    <configuration name="BlobRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.starter.BlobRunner" />
+      <module name="JDBC_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DAORunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.starter.DAORunner" />
+      <module name="JDBC_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcInjection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.starter.JdbcInjection" />
+      <module name="JDBC_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcPreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.starter.JdbcPreparedStatement" />
+      <module name="JDBC_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.starter.TransactionRunner" />
+      <module name="JDBC_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdbc.starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DAORunner" />
+        <item itemvalue="Application.BlobRunner" />
+        <item itemvalue="Application.TransactionRunner" />
+        <item itemvalue="Application.JdbcPreparedStatement" />
+        <item itemvalue="Application.JdbcInjection" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +173,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664517367413</updated>
+      <workItem from="1664517369637" duration="27848000" />
+      <workItem from="1664691253183" duration="13165000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jdbc/starter/DAORunner.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
